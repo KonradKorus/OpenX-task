@@ -61,7 +61,7 @@ const furthestClients = (users) =>{
     return result;
 }
 
-const main2 = async () =>{
+const main = async () =>{
 
     //fetching data
     let response1 = fetch("https://fakestoreapi.com/carts");
@@ -85,4 +85,4 @@ const main2 = async () =>{
     console.log(result3)
 }
 
-main2();
+main();
